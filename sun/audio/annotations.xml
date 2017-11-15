@@ -1,0 +1,5 @@
+<root>
+    <item name='sun.audio.AudioPlayer'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>
