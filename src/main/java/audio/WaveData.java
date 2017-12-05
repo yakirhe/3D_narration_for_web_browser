@@ -123,6 +123,7 @@ public class WaveData
 	 */
 	public static WaveData create(String path)
 	{
+		System.out.println(WaveData.class.getClassLoader().getResource(path));
 		return create(WaveData.class.getClassLoader().getResource(path));
 	}
 
